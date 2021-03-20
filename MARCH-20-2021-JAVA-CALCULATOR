@@ -1,0 +1,25 @@
+import java.util.Scanner; // Import the Scanner class
+
+class MainApplication {
+  public static void main(String[] args) {
+    int x, y, add,subtract,multiply,divide;
+    Scanner myObj = new Scanner(System.in); // Create a Scanner object
+    System.out.println("Enter a first number:");
+    x = myObj.nextInt(); // Read user input
+
+    System.out.println("Enter a second number:");
+    y = myObj.nextInt(); // Read user input
+
+    add = x + y;  // Calculate the sum of x + y
+    System.out.println("Sum is: " + add); // Print the sum
+    
+    subtract = x - y;
+    System.out.println("Difference is: " + subtract);
+    
+    multiply = x *y;
+    System.out.println("Multiplication is: " + multiply);
+    
+    divide = x / y;
+    System.out.println("Division is: " + divide);
+  }
+} 
